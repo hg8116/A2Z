@@ -19,7 +19,7 @@ public class MinimumDaysToMakeMbouquets {
             for (int i = 0; i < n; i++) {
                 if (arr[i] > mid)
                     flo = 0;
-                else if (++flo >= k) {g
+                else if (++flo >= k) {
                     bou++;
                     flo = 0;
                 }
