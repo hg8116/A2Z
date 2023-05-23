@@ -4,7 +4,7 @@
 * Start from the end.
 * If the goal can be reached from current index, make the current index as new goal
 * When loop ends, if the goal is 0 return true
-* */
+*/
 
 public class JumpGame {
     public boolean canJump(int[] nums) {
